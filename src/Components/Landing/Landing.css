@@ -1,0 +1,22 @@
+.landing{
+    
+    background-image: url('/img/land.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    .pompiere-regular{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .textBox1{
+        height: 90vh;
+        background-image: linear-gradient(to right, #ffffff65 90%, transparent);
+    }
+    .collageName{
+        font-size: 3.8rem;
+    }
+    .collageName2{
+        font-size: 1.8rem;
+    }
+}

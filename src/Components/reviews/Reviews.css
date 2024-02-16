@@ -1,0 +1,41 @@
+.reviews{
+
+    .jjjjh{
+        grid-gap: 20px;
+    }
+    .pompiere-regular{
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+    .dsad{
+        min-height: 75vh;
+    }
+   
+    .dfd{
+        display: flex;
+        gap: 0;
+    }
+
+    .top-r{
+        background: var(--pri-btn);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 15px; 
+        border-bottom-right-radius: 15px; 
+    }
+
+    .btn-r{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        /* border-top-right-radius: 15px; */
+        /* border-top-left-radius: 15px; */
+
+    }
+    .inner{
+        padding: 0;
+        margin: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background: var(--pri-btn);
+    }
+}

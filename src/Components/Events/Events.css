@@ -1,0 +1,20 @@
+.Events{
+    .pompiere-regular{
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+    
+    .eventDiv{
+        transition: .5s;
+    }
+    .eventDiv:hover{
+        border-bottom: 1px solid var(--sec-comp);
+        h3{
+            transform: scale(1.05);
+            color: var(--sec-comp);
+        }
+        p{
+            color: var(--sec-comp);
+        }
+    }
+}

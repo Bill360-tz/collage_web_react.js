@@ -1,0 +1,31 @@
+.navbar{
+    .navlink{
+        transition: 300ms all;
+        font-weight: 600;
+    }
+    .pompiere-regular{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .navlink:hover{
+        color: var(--sec-color)
+    }
+    .phone{
+        color: #006f93 !important;
+    }
+    .WhatsAppIcon{
+        color: #008663;
+    }
+    .facebook{
+        color: #002f86;
+    }
+    .YouTubeIcon{
+        color: #a80000;
+        /* font-size: larger; */
+    }
+    
+    .logo img{
+        width: 55px;
+    }
+}
+

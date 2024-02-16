@@ -1,0 +1,14 @@
+.registerform {
+    min-height: 75vh;
+   
+
+    .mob img {
+        width: 35px;
+    }
+
+    .pompiere-regular {
+        font-size: 1.7rem;
+    }
+
+
+}
