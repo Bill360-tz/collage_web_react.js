@@ -27,7 +27,7 @@ export class Register extends Component {
           <div className="flex fill">
             <div data-aos="zoom-in" className="flex-c flex-centered width-90 ">
               <h1 className=' pompiere-regular jkjk theme-text' >Register and Join Us</h1>
-              <h3 className="theme-text-c jjk"><RandomTaglineComponent /> </h3>
+              <h3 className="theme-text-c jjk text-c flex flex-centered"><RandomTaglineComponent /> </h3>
             </div>
             <div data-aos="fade-left" className="flex">
               <img src={`/img/reg01.png`} alt="" className="fill" />

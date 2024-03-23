@@ -16,9 +16,11 @@
     "@mui/material": "^5.15.7",
     "aos": "^3.0.0-beta.6",
     "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0"
+    "react-router-dom": "^6.22.0",
+    "sweetalert2": "^11.10.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
