@@ -1,0 +1,68 @@
+.cooo {
+    margin-top: 84px;
+    position: relative;
+    overflow: hidden;
+    .dadafe {
+        font-size: 2.9rem !important;
+        font-weight: 600;
+    }
+
+    
+
+
+
+    .course-wrapper {
+        grid-gap: 15px !important;
+        /* z-index: 10; */
+
+    }
+
+    .courseDiv {
+        transition: 0.5s all !important;
+    }
+
+    .courseDiv:hover {
+        box-shadow: none;
+        transform: scale(1.02);
+        background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+            linear-gradient(0deg, #f48200 0%, #ffffff 70%),
+            radial-gradient(at 100% 0%, #f48200 0%, #ffffff 70%),
+            radial-gradient(at 0% 0%, transparent 0%, #ffffff 70%),
+            #ffffff;
+        border-radius: 5px;
+        padding: 3px;
+        box-sizing: border-box;
+
+        h3 {
+            color: var(--sec-btn);
+        }
+
+        small {
+            background-image: linear-gradient(to right, var(--sec-comp), var(--sec-comp));
+        }
+
+    }
+
+    @media only screen and (max-width: 1200px){
+        .hhhj{
+            font-size: 1.1rem !important;
+        }
+
+        .disText{
+            font-size: 1.6rem;
+        }
+        .jjh{
+            font-size: 1.6rem !important;
+        }
+        .jjk{
+            font-size: 1rem !important;
+        }
+    }
+
+}
+

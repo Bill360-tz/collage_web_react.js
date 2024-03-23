@@ -1,0 +1,19 @@
+.formd{
+    /* background: #d5cec6; */
+    background-image: linear-gradient(45deg,#000000, #9e4200) ;
+/* padding: 40px; */
+    /* img{
+        width: 340px;
+    } */
+
+    h3{
+        font-size: 3rem;
+        color: #eab5a3;
+    }
+
+    @media only screen and (max-width: 1200px){
+        .jjh{
+            font-size: 1.7rem;
+        }
+    }
+}

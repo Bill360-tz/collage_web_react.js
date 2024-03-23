@@ -1,31 +1,58 @@
-.navbar{
-    .navlink{
+.navbar {
+    z-index: 99;
+    position: fixed;
+    transition: 0.5s linear;
+    top: 0;
+    .navlink {
         transition: 300ms all;
         font-weight: 600;
     }
-    .pompiere-regular{
-        font-size: 1.3rem;
+
+    .pompiere-regular {
+        font-size: 1.7rem;
         font-weight: 600;
     }
-    .navlink:hover{
+
+    .navlink:hover {
         color: var(--sec-color)
     }
-    .phone{
+
+    .phone {
         color: #006f93 !important;
     }
-    .WhatsAppIcon{
+
+    .WhatsAppIcon {
         color: #008663;
     }
-    .facebook{
+
+    .facebook {
         color: #002f86;
     }
-    .YouTubeIcon{
+
+    .YouTubeIcon {
         color: #a80000;
         /* font-size: larger; */
     }
-    
-    .logo img{
+
+    .logo img {
         width: 55px;
     }
+
+    
+    
+}
+.hidden {
+    top: -87px !important;
+    /* adjust as needed */
+   
+}
+.h-nav{
+    transition: 600ms all ease-in-out;
+    animation: navIn 600ms;
 }
 
+@keyframes navIn {
+    0%{
+        top: -10px;
+    }
+}

@@ -9,7 +9,7 @@ export class Footer extends Component {
 
   render() {
     return (
-      <div className='footer flex fill pad-10 flex-s-btn'>
+      <div className='footer flex fill pad-10 flex-s-btn m-flex-r'>
         <p className="normal-text flex">Copyright<AlternateEmailIcon sx={{ fontSize: 16 }} />{ new Date().getFullYear()}</p>
 
         <p className="normal-text">Powered by <Link className='anchor' target={'_blank'} to={`https://jandpconsult.co.tz`}>JandP ICT Consult</Link></p>

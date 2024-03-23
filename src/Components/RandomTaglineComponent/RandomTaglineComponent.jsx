@@ -13,7 +13,7 @@ function RandomTaglineComponent() {
     }, [location]);
 
     return (
-        <div className='tagline'>
+        <div className='tagline hhhj'>
             {tagline}
         </div>
     );

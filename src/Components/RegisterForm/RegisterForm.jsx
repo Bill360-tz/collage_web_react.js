@@ -1,6 +1,12 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import './RegisterForm.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+  duration: 2000
+});
+
 function RegisterForm() {
     const [inputs, setInputs] = useState([])
     const [payment, setPayment] = useState(false)
@@ -76,14 +82,14 @@ function RegisterForm() {
 
 
     return (
-        <div className='registerform flex-c bg-w flex-centered '>
+        <div  className='registerform flex-c bg-w flex-centered '>
             <div div className="grid-2 fill pad-10  m-flex " >
                 {! payment &&
-                    <div className="flex-c pad-20 flex-centered">
-                        <div className="flex fill pad-5 flex-centered">
+                    <div data-aos="fade-up" className="flex-c pad-20 flex-centered m-fill">
+                        <div className="flex fill pad-5 flex-centered m-fill">
                             <h3 className="normal-text disText"> Fill the form Below</h3>
                         </div>
-                        <form onSubmit={hundleSubmit} className="flex-c fill pad-5">
+                        <form onSubmit={hundleSubmit} className="flex-c fill pad-5 m-fill">
                             <label htmlFor="fullName" className="normal-text">Your Full Name</label>
                             <input type="text"
                                 id='fullName'
@@ -118,7 +124,7 @@ function RegisterForm() {
                 }
 
                 { payment &&
-                <div div className="flex-c pad-10">
+                <div data-aos="fade-up" className="flex-c pad-10">
                 <div className="flex pad-5">
                     <h3 className="normal-text">Pay Registration Fees</h3>
 
@@ -328,9 +334,9 @@ function RegisterForm() {
             </div>
                 }
                 
-                <div className="flex-c flex-centered pad-10">
+                <div  className="flex-c flex-centered pad-10">
 
-                    <p className="text-c poppins-medium">Most of Our courses span up two one year. However your extra dedication can speed up the time-frame </p>
+                    <p  className="text-c poppins-medium">Most of Our courses span up two one year. However your extra dedication can speed up the time-frame </p>
                 </div>
 
             </div>

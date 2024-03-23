@@ -11,12 +11,31 @@
 
     .textBox1{
         height: 90vh;
-        background-image: linear-gradient(to right, #ffffff65 90%, transparent);
+        background-image: linear-gradient(to right, #ffffff5e 90%, transparent);
     }
     .collageName{
         font-size: 3.8rem;
     }
     .collageName2{
         font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: 1200px){
+        background-image: url('/img/land2.png');
+        .pompiere-regular{
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+    
+        .textBox1{
+            height: 90vh;
+            background-image: linear-gradient(to right, #ffffffb1 50%, transparent);
+        }
+        .collageName{
+            font-size: 2rem;
+        }
+        .collageName2{
+            font-size: 1rem;
+        }  
     }
 }

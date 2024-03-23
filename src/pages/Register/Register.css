@@ -1,8 +1,24 @@
 .register {
-    
+    margin-top: 83px;
     .jkjk {
         font-size: 2.4rem;
         font-weight: 600;
+    }
+
+    @media only screen and (max-width: 1200px){
+        .hhhj{
+            font-size: 1.1rem !important;
+        }
+
+        .disText{
+            font-size: 1.6rem;
+        }
+        .jjh{
+            font-size: 1.6rem !important;
+        }
+        .jjk{
+            font-size: 1rem !important;
+        }
     }
 
 }
